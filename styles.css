@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Kalam&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Kalam";
+}
+
+body {
+  color: black;
+  background: #88696c;
+}
+
+/* Header */
+
+#menu-toggle,
+.menu-label {
+  display: none;
+}
+
+.header {
+  background: #ffffec;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  position: fixed;
+  width: 100%;
+  height: 65px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 100px;
+}
+
+.navbar {
+  display: flex;
+  padding: 1rem;
+}
+
+.navbar i {
+  font-size: 36px;
+  display: none;
+}
+
+.navbar-list a {
+  color: black;
+}
+
+/* MAIN */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#hero {
+  margin-top: 65px;
+  padding: 20px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  gap: 7px;
+}
+
+.hero-title {
+  font-size: 3rem;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 50%;
+}
+.hero-info h2 {
+  font-size: 60px;
+  color: black;
+  min-width: 500px;
+  width: 80%;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 0.75em 1em;
+  border-radius: 20px;
+}
+
+.hero-card {
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  width: 400px;
+}
+
+.about {
+  font-size: 20px;
+  width: 600px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/*  CARDS */
+
+.card-section {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ventajas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.ventajas h2 {
+  display: block;
+  font-size: 60px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.ventajas p {
+  font-size: 25px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  text-align: center;
+  background: #ffffec;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+  gap: 20px;
+  border-radius: 15px;
+  padding: 40px 30px;
+  max-width: 300px;
+  height: 250px;
+}
+
+.card img {
+  width: 40px;
+}
+
+.card h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.card p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/* CONTACTOOOOO */
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin-bottom: 80px;
+  padding: 45px;
+  gap: 40px;
+  border-radius: 20px;
+}
+
+.container-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  flex-direction: column;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.card-contactanos {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 25px;
+  width: 200px;
+}
+
+.card-contactanos p {
+  font-weight: 100;
+  border-bottom: #000000 solid 1px;
+  font-size: 20px;
+}
+
+.contacto-ubi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+}
+.contacto-ubi img {
+  width: 20px;
+  height: 20px;
+}
+
+.redes img {
+  width: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer-img img {
+  width: 100px;
+}
